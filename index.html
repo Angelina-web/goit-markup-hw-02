@@ -4,74 +4,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
+    <link
     href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
     rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
+   
+    <link rel="stylesheet" href="css/styles.css">
+       
   </head>
 
 <body>
-  <header>
-    <nav>
-      <a class="logo" href="./index.html"><span class="logo-blue">Web</span>Studio</a>
+                     <!--HEADER-->
+  <header class="header">
+    <nav class="nav-header">
+      <a class="logo" href="./index.html"><span class="logo-style">Web</span>Studio</a>
       
-      <ul class="headline-link">
-        <li><a class="headline-link-list" href="#Studio">Studio</a></li>
-        <li><a class="headline-link-list" href="#Portfolio">Portfolio</a></li>
-        <li><a class="headline-link-list" href="#Contacts">Contacts</a></li>
+      <ul class="nav-list-header">
+        <li class="nav-list"><a class="nav-link" href="#Studio">Studio</a></li>
+        <li class="nav-list"><a class="nav-link" href="#Portfolio">Portfolio</a></li>
+        <li class="nav-list"><a class="nav-link" href="#Contacts">Contacts</a></li>
       </ul>
     </nav>
   
-    <address>
-      <ul class="contact-link">
-        <li><a class="contacts-list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts-list" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+    <address class="Contacts">
+      <ul class="contact-list-header">
+        <li class="contacts-list"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="contacts-list"><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
       </ul>
     </address>
   </header>
-
+                    <!--MAIN-->
   <main>
-    <!--BUTTON-->
+                     <!--BUTTON-->
     <section class="button-section">
       <h1> Effective Solutions<br>
       for Your Business</h1>
       <button class="btn" type="button">Order Service</button>
     </section>
-    <!--GOALS-->
-    <section>
+                    <!--GOALS-->
+    <section class="goal-section">
       <h2 hidden>Goasl</h2>
+      
       <div class="goals">
-       <ul>
-        <li>
+       <ul class="goals-list">
+        <li class="goals-list-item">
           <h3 class="title-goal">Strategy</h3>
             <p class="title-goal-p">Our goal is to identify the business
             problem to walk away with the perfect and creative solution.</p>
         </li>
-        <li>
+        <li class="goals-list-item">
           <h3 class="title-goal">Punctuality</h3>
             <p class="title-goal-p">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
         </li>
-        <li>
+        <li class="goals-list-item">
           <h3 class="title-goal">Diligence</h3>
             <p class="title-goal-p">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
         </li>
-        <li>
+        <li class="goals-list-item">
           <h3 class="title-goal">Technologies</h3>
           <p class="title-goal-p">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
         </li>
       </ul>
       </div>
     </section>
-    <!--OUR TEAM-->
-    <section class="our-team">
+                   <!--OUR TEAM-->
+    <section class="team-section">
       <div class="our-team-section">
         <h2 class="text-team">Our Team</h2>
-      <ul>
+      <ul class="team-list">
         <li class="bordered-team">
           <img src="./images/team/mark.jpg" alt="Mark Guerrero" width="264" height="260" />
             <h3 class="our-name">Mark Guerrero</h3>
@@ -95,37 +99,37 @@
       </ul>
       </div>
     </section>
-    <!--OUR PORTFOLIO-->
-    <section>
+                <!--OUR PORTFOLIO-->
+    <section class="portfolio-section">
       <div class="portfolio">
       <h2 class="title-portfolio">Our Portfolio</h2>
       <ul>
-        <li>
+        <li class="portfolio-list">
           <img src="./images/portfolio/banking-app.jpg" alt="Banking App" width="360" height="300" />
             <h3 class="apps">Banking App</h3>
               <p class="apps-p">App</p>
         </li>
-        <li>
+        <li class="portfolio-list">
           <img src="/images/portfolio/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300" />
             <h3 class="apps">Cashless Payment</h3>
               <p class="apps-p">Marketing</p>
         </li>
-        <li>
+        <li class="portfolio-list">
           <img src="./images/portfolio/meditation-app.jpg" alt="Meditation App" width="360" height="300" />
             <h3 class="apps">Meditation App</h3>
               <p class="apps-p">App</p>
         </li>
-        <li>
+        <li class="portfolio-list">
           <img src="./images/portfolio/taxi-service.jpg" alt="Taxi Service" width="360" height="300" />
             <h3 class="apps">Taxi Service</h3>
               <p class="apps-p">Marketing</p>
         </li>
-        <li>
+        <li class="portfolio-list">
           <img src="./images/portfolio/screen-illustrations.jpg" alt="Screen Illustrations" width="360" height="300" />
             <h3 class="apps">Screen Illustrations</h3>
               <p class="apps-p">Design</p>
         </li>
-        <li>
+        <li class="portfolio-list">
           <img src="./images/portfolio/online-courses.jpg" alt="Online Courses" width="360" height="300" />
             <h3 class="apps">Online Courses</h3>
               <p class="apps-p">Marketing</p>
@@ -134,8 +138,9 @@
   </div>
     </section>
   </main>
+                   <!--FOOTER-->
   <footer>
-    <a class="logo-two" href="./index.html"><span class="logo-blue">Web</span>Studio</a>
+    <a class="logo-footer" href="./index.html"><span class="logo-style">Web</span>Studio</a>
     <p class="footer-text">
       Increase the flow of customers and <br> sales for your business with digital <br>marketing & growth solutions.
     </p>
@@ -143,4 +148,4 @@
 
   </body>
   
-  </html>
+</html>
