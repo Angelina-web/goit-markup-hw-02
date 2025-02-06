@@ -63,7 +63,7 @@ a{
     background: #2e2f42;
 }
 
-h1{ 
+.headline{ 
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
@@ -86,7 +86,7 @@ h1{
 
 .btn:hover,
 .btn:focus{
-    background: #404BBF;
+    background-color: #404BBF;
 }
 
          /*    GOALS */
@@ -112,7 +112,7 @@ h1{
           /*    OUR TEAM */
 
 .team-section{
-    background-color:#FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .text-team{
@@ -125,6 +125,10 @@ h1{
     text-transform: capitalize;
 }
   
+.bordered-team{
+    background-color: #FFFFFF;
+}
+
 .our-name{
     font-weight: 500;
     font-size: 20px;
